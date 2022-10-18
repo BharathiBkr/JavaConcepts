@@ -1,16 +1,16 @@
 package com.testing;
 
 public class Customer {
-//	void deposit() {   //Default Access Specifier method (Within class &Within Package)
-//		System.out.println("Deposit the Amount");
-//	}
-//	public void enquiry() {  //Public Access Specifier method(within any anywhere)
-//		System.out.println("Bank Enquiry");
-//	}
-//	private void withdraw() {   //Private Access Specifier method(Within Class)
-//		System.out.println("WithDraw the Amount");
-//		
-//	}
+	void deposit() {   //Default Access Specifier method (Within class &Within Package)
+		System.out.println("Deposit the Amount");
+	}
+	public void enquiry() {  //Public Access Specifier method(within any anywhere)
+		System.out.println("Bank Enquiry");
+	}
+	private void withdraw() {   //Private Access Specifier method(Within Class)
+		System.out.println("WithDraw the Amount");
+		
+	}
 	public static void main(String[] args) {
 	final int a=10;
 	 //a=20;
